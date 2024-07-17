@@ -1,0 +1,35 @@
+.videoTranscript {
+  flex-grow: 1;
+  background-color: white;
+  height: 720px;
+}
+
+@media (min-width: 1100px) {
+  .videoTranscript {
+    margin-left: 10px;
+  }
+}
+
+.videoTranscript h1 {
+  margin: 6px;
+}
+
+.videoTranscript ul {
+  position: relative;
+  list-style-type: none;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0 6px;
+  height: 660px;
+}
+
+.videoTranscript ul li {
+  padding: 6px;
+  font-size: 20px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.videoTranscript ul li.current {
+  background-color: aquamarine;
+}

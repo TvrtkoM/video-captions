@@ -1,0 +1,17 @@
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons button {
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.buttons button:disabled {
+  cursor: auto;
+  color: white;
+}

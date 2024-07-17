@@ -1,0 +1,14 @@
+.videoPlayer {
+  position: relative;
+}
+
+.videoPlayerWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1100px) {
+  .videoPlayerWrap {
+    flex-direction: row;
+  }
+}

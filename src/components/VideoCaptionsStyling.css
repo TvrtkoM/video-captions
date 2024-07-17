@@ -1,0 +1,27 @@
+.videoCaptionsStyling {
+  position: absolute;
+  padding: 6px;
+  top: 10px;
+  right: 10px;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  opacity: 0.2;
+}
+
+.videoCaptionsStyling h5 {
+  margin: 0;
+
+}
+
+.videoCaptionsStyling .colorPicker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.videoCaptionsStyling:hover {
+  opacity: 1;
+}
